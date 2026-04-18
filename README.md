@@ -3,45 +3,6 @@ Technical Assessment
 
 ## Start
 
-## Frontend
-
-Open a new terminal and go to the Frontend folder:
-
-```bash
-cd Frontend
-```
-
-Install the packages:
-
-```bash
-npm install
-```
-
-Start the frontend:
-
-```bash
-npm run dev
-```
-
-Open `http://localhost:5173` in your browser.
-
-
----
-
-## API Endpoints
-
-Base URL: `http://127.0.0.1:8000/api`
-
-| Method | Endpoint | What it does |
-|---|---|---|
-| GET | `/products` | Get all products |
-| POST | `/products` | Create a product |
-| GET | `/products/{id}` | Get one product |
-| PATCH | `/products/{id}` | Update a product |
-| DELETE | `/products/{id}` | Delete a product |
-
----
-
 ## Backend (Laravel API)
 
 ### 1. Install PHP dependencies
@@ -72,7 +33,7 @@ DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=carinfo_dbo
-DB_USERNAME=root
+DB_USERNAME=
 DB_PASSWORD=
 ```
 
